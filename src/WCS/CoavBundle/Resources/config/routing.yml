@@ -17,3 +17,7 @@ wcs_coav_planemodel:
 wcs_coav_homepage:
     path:     /
     defaults: { _controller: WCSCoavBundle:Default:index }
+
+wcs_coav_user:
+    resource: "@WCSCoavBundle/Resources/config/routing/user.yml"
+    prefix:   /user
